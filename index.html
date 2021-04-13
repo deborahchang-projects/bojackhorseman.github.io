@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Deborah's Foldscope Challenge</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <script src="script.js"></script>
+
+    <!-- open sans font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="Mrs._Frizzle.png" class="teacher-img" alt="Ms Frizzle" />
+    <h1 class="header">Ms. Frizzle's Students!</h1>
+    <select class="student-sort" id="select-sort" onchange="sortStudents()">
+      <option value="">Sort students by...</option>
+      <option value="age">Sort by age</option>
+      <option value="last-name">Sort by last name</option>
+    </select>
+    <div class="student-container"></div>
+  </body>
+</html>
